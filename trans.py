@@ -37,4 +37,4 @@ if __name__ == '__main__':
     ADDR = (HOST,PORT)  
     server = ThreadingTCPServer(ADDR,Handler)  #参数为监听地址和已建立连接的处理类
     print 'listening'
-    server.serve_forever()  #监听，建立好TCP连接后，为该连接创建新的socket和线程，并由处理类中的handle方法处理
+    server.serve_forever()  #监听，建立好TCP连接后，为该连接创建新的socket和线程，并由处理类中的handle方法处理 
